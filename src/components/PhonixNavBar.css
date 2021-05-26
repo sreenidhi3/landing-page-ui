@@ -62,6 +62,6 @@
         flex-wrap: wrap;
     }
     .navlinks{
-        visibility: hidden;
+        visibility: hidden !important;
     }
 }
