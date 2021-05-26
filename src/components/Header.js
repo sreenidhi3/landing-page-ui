@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import landingpage from '.././landing-page.png';
 import './header.css';
 
@@ -14,7 +13,7 @@ export const Header = ()=>{
                 </ul>
             </div>
             <div className="header-brand-image animated">
-                    <img src={landingpage} className="animated"></img>
+                    <img src={landingpage} className="animated" alt=""></img>
 
             </div>
         </section>
