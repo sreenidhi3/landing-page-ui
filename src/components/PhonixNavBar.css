@@ -25,15 +25,25 @@
     float: left;
 }
 .navlinks ul li button{
+    font-size: 1.3rem;
     background:linear-gradient(#ef5959, #efc259);
     background-image: linear-gradient(to right, #ef5959  11%, #F09819  100%);
-   border-radius: 2rem;
+    border-radius: 2rem;
     border:0;
     width:8rem;
-    padding: 1rem;
+    padding: 1rem 0; 
     margin-right: 2rem;    
 }
 
 .nav-items :first-child{
     padding-right: 1rem;
+}
+
+@media (max-width: 530px) {
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .navlinks{
+        visibility: hidden;
+    }
 }

@@ -86,7 +86,7 @@ ul{
 }
   } */
 
-  @media (min-width: 1000px) {
+  @media (min-width: 991px) {
     .header-hero{
         padding: 5rem;;
     }
@@ -110,7 +110,7 @@ ul{
         width: 60%;
     }
     .header-hero .header-links{
-        width: 40%;
+        width: 30%;
     }
     .header-hero .header-brand-image img {
         width: 70%;
@@ -157,7 +157,8 @@ ul{
         position: relative;
         left:0%;
         width: 80%;
-    }}
+    }
+}
     @media (max-width: 690px){
         .header-hero .header-brand-image img {
             position: relative;
