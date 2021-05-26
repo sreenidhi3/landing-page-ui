@@ -9,11 +9,29 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin: auto auto auto 0;
-    padding-left: 2rem;;
+    padding-left: 2rem;
+    animation: movedown 1s linear;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0px);
+        visibility: visible;
+    }
 }
 
 .navlinks{
     display: flex;
+    animation: movedown 1s linear;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
 
 .navlinks ul{
